@@ -88,26 +88,26 @@
 // instanceof	Returns true if an object is an instance of an object type
 
 
-1. The logical AND assignment operator (&&=) combines this behavior with assignment:
-falsy - zero unassigned 
-truthy some value
+// 1. The logical AND assignment operator (&&=) combines this behavior with assignment:
+// falsy - zero unassigned 
+// truthy some value
 
-If the left-hand side is falsy, it leaves it unchanged. 
-If the left-hand side is truthy, it assigns the value of the right-hand side to the left-hand side.
+// If the left-hand side is falsy, it leaves it unchanged. 
+// If the left-hand side is truthy, it assigns the value of the right-hand side to the left-hand side.
 
-2. Logical OR Assignment (||=)
-The logical OR assignment operator (||=) combines this behavior with assignment:
+// 2. Logical OR Assignment (||=)
+// The logical OR assignment operator (||=) combines this behavior with assignment:
 
-If the left-hand side is truthy, it remains unchanged.
-If the left-hand side is falsy, it assigns the value of the right-hand side to the left-hand side.
-
-
-3.Nullish Coalescing Assignment (??=)
-The nullish coalescing assignment operator (??=) combines this behavior with assignment:
-
-If the left-hand side is null or undefined, the right-hand side is assigned to the left-hand side.
-If the left-hand side is any other value, it remains unchanged.
+// If the left-hand side is truthy, it remains unchanged.
+// If the left-hand side is falsy, it assigns the value of the right-hand side to the left-hand side.
 
 
-let x = 16 + 4 + "Volvo"; ------- 20Volvo
-let x="volvo"+16+4=---------- volvo164
+// 3.Nullish Coalescing Assignment (??=)
+// The nullish coalescing assignment operator (??=) combines this behavior with assignment:
+
+// If the left-hand side is null or undefined, the right-hand side is assigned to the left-hand side.
+// If the left-hand side is any other value, it remains unchanged.
+
+
+// let x = 16 + 4 + "Volvo"; ------- 20Volvo
+// let x="volvo"+16+4=---------- volvo164

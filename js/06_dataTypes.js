@@ -123,9 +123,9 @@
 
 // let students= new Array("junaid", "kishore","aslam")
 
-to find out wheter given variable is array or not 
-let students=['kishore',"juaid"]
-let type=   typeof students;
+// to find out wheter given variable is array or not 
+// let students=['kishore',"juaid"]
+// let type=   typeof students;
 
 
 
