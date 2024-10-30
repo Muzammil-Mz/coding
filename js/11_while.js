@@ -12,11 +12,18 @@
 
 // or
 
-let num=10
-let total=0
+// let num=10
+// let total=0
+// let i=0
+// while (i<=num) {
+//   total=total+i
+//   i++  
+// }
+// console.log(total);
+
 let i=0
-while (i<=num) {
-  total=total+i
-  i++  
+while (i<3) {
+  i++
+  console.log(i);
+  
 }
-console.log(total);

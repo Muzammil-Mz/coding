@@ -68,3 +68,84 @@
 // objects cant be compared if compared always gives false     
 // let x = new String("John");
 // let y = new String("John");
+
+//objects can be accessed in two ways by using . method and key mention
+
+// let fruit={
+//     king:"mago",
+//     queen:"pine",
+//     kiww:"black"
+// }
+// // console.log(fruit.king);
+// console.log(fruit['king']); //2nd methd of accessing this 
+
+//some fun with objects-- created kings = raja ... pushed with king using 2nd method without string when logged raja as output though pushed with king
+//if pushed with kings raja wont be output its kings itself due to use of strings
+// const  jamun="guava"
+// const fruit={
+//     yellow:"mago",
+//     brown:"pine",
+//     black:"kiwi"
+// }
+// fruit[jamun]='red'
+// console.log(fruit);
+
+
+//accessing key value pairs in objects using loops
+
+// const fruit={
+//     yellow:"mago",
+//     brown:22,
+//     black:"kiwi"
+// }
+// for(let x in fruit){ //this gives just keys of obj
+//     console.log(x);
+
+// }
+
+// const fruit={
+//     yellow:"mago",
+//     brown:22,
+//     black:"kiwi"
+// }
+// for(let x in fruit){ //
+//     console.log(fruit.x); //this gives undefined
+// }
+
+// const fruit={
+//     yellow:"mago",
+//     brown:22,
+//     black:"kiwi"
+// }
+// for(let x in fruit){ //
+//     console.log(fruit[x]); //this gives values
+// }
+
+
+//to get both key and values useing temp string
+// const fruit = {
+//     yellow: "mago",
+//     brown: 22,
+//     black: "kiwi"
+// }
+// for (let x in fruit) { //
+//     console.log(`${x}:${fruit[x]}`)//
+// }
+
+
+
+// or
+
+// const fruit = {
+//     yellow: "mago",
+//     brown: 22,
+//     black: "kiwi"
+// }
+// for (let x in fruit) { //
+//     console.log(x,fruit[x])//
+// }
+
+
+//to get in object format --- pendign
+
+
