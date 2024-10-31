@@ -28,8 +28,8 @@
 
 // can also be done by using spread operator a1 and a2 stored in arr1 and arr2 remain are stored in newarr
 
-// const myarr=['arr1','arr2','arr3','arr4']
-// let [a1,a2,...newarr]=myarr
-// console.log(a1);
-// console.log(a2);
-// console.log(newarr);
+const myarr=['arr1','arr2','arr3','arr4']
+let [a1,a2,...newarr]=myarr
+console.log(a1);
+console.log(a2);
+console.log(newarr);

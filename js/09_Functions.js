@@ -363,3 +363,23 @@
 // })
 
 // console.log(factorial);
+
+// function sum(a,b){
+//     return a + b
+// }
+// let result=sum(5,9)
+// console.log(result);
+
+// function oddeven(a){
+//     if (a%2==0){
+//         return("even");
+        
+//     } else {     
+//         return("odd");
+        
+//     }
+// }
+// let result=oddeven(8)
+// console.log(result);
+
+

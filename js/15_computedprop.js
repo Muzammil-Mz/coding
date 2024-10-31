@@ -29,3 +29,14 @@
 //     [obj2]: val2
 // }
 // console.log(object);
+
+const obje1="1obj"
+const obje2="2obj"
+
+const value1="val1"
+const value2="val2"
+const obj={
+    [obje1]:value1,
+    [obje2]:value2
+}
+console.log(obj);

@@ -57,9 +57,11 @@
 // console.log(fruit);
 
 
-let fruit={apple:"ball", cat:"doll"}
-for (let x in fruit){
+// let fruit={apple:"ball", cat:"doll"}
+// let y=[]
+// for (let x in fruit){
+  
 //    y.push(x.toUpperCase());
-}
-// console.log(x);
-console.log(fruit);
+// }
+// console.log(y);
+// console.log(fruit);

@@ -21,9 +21,17 @@
 // }
 // console.log(total);
 
-let i=0
-while (i<3) {
-  i++
-  console.log(i);
+// let i=0
+// while (i<3) {
+//   i++
+//   console.log(i);
   
+// }
+let num=10
+let i=0
+let total=0
+while (i<=num) {
+  total=total+i
+  i++
 }
+console.log(total);
