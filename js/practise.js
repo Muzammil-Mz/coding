@@ -34,6 +34,9 @@
 // let d=true
 // console.log(!d);
 
-let age=20
-let status= age>18 ? 'major':"minor"
-console.log(status);
+// let age=20
+// let status= age>18 ? 'major':"minor"
+// console.log(status);
+let a=10
+let b=20
+
