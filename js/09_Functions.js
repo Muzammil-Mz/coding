@@ -383,13 +383,13 @@
 // console.log(result);
 
 
-function oddeven(a){
-    if (a%2==0){
-        return("even")
-    }
-    else{
-        return("odd")
-    }
-}
-let result=oddeven(88)
-console.log(result);
+// function oddeven(a){
+//     if (a%2==0){
+//         return("even")
+//     }
+//     else{
+//         return("odd")
+//     }
+// }
+// let result=oddeven(88)
+// console.log(result);
