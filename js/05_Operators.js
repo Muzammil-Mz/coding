@@ -62,13 +62,21 @@
 
 // 4.Adding two numbers, will return the sum, but adding a number and a string will return a string:
 
-// 5.  JavaScript Logical Operators
+// 5.  JavaScript Logical Operators (representd in true false)
 // Operator	Description
 // &&	logical and
 // ||	logical or
 // !	logical not
 
-// 6. JavaScript Bitwise Operators
+// not table -smply rev question
+// let x=false
+// console.log(!x);
+// let d=true
+// console.log(!d);
+
+
+
+// 6. JavaScript Bitwise Operators (represented in 0 and 1)
 // Bit operators work on 32 bits numbers.
 
 // Any numeric operand in the operation is converted into a 32 bit number. The result is converted back to a JavaScript number.
@@ -76,7 +84,19 @@
 // &	                 AND	     5 & 1	        0101 & 0001	    0001	        1
 // |	                 OR	         5 | 1	        0101 | 0001	    0101	        5
 // ~	                 NOT	     ~ 5	         ~0101	        1010	        10
-// ^	XOR	5 ^ 1	0101 ^ 0001	0100	 4
+// ^	XOR	5 ^ 1	0101 ^ 0001	0100	 4     
+//  0   0   -   0
+//  0   1   -   1
+//  1   0   -   1
+//  1   1   -   0
+
+// 5&1 --- 1
+// 5|1 --- 5
+// 5^1 --- 4
+
+
+
+
 // <<	left shift	5 << 1	0101 << 1	1010	 10
 // >>	right shift	5 >> 1	0101 >> 1	0010	  2
 // >>>	unsigned right shift	5 >>> 1	0101 >>> 1	0010	  2

@@ -136,3 +136,5 @@
 // JavaScript objects are written with curly braces {}.
 
 // Object properties are written as name:value pairs, separated by commas
+
+//by default array and object comes under object null is bug
