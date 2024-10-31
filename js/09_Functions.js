@@ -393,3 +393,19 @@
 // }
 // let result=oddeven(88)
 // console.log(result);
+
+
+// function oddeven(a){ //optimised version of even odd
+//     if (a%2==0){
+//         return true
+//     }
+//     else{
+//         return false
+//     }
+// }
+
+// console.log(oddeven(54));
+
+let x=81
+let eveodd=x%2==0 ? "even":"odd"
+console.log(eveodd);
