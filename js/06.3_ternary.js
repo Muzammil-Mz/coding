@@ -33,3 +33,6 @@
 // let greatest= x>y&& x>z ? "x is greater": y>x && y>z ? "y is greater than": 'z is grearer'
 // console.log(greatest);
 
+// let x=81
+// let eveodd=x%2==0 ? "even":"odd"
+// console.log(eveodd);

@@ -406,6 +406,31 @@
 
 // console.log(oddeven(54));
 
-let x=81
-let eveodd=x%2==0 ? "even":"odd"
-console.log(eveodd);
+// function evod (x){  //other optimised ver
+//     return (x%2===0)
+// }
+// console.log(evod(2));
+
+//writing a function to find x number from a array
+// function shoot (array , target) {
+// for (let i=0 ;i<array.length; i++) {
+//     if (array[i]===target) {
+//         return i
+//     }
+// }return -1
+// }
+// let array=[1,5,4,64]
+// let final=shoot(array , 6)
+// console.log(final);
+
+
+// function targets (array,target) {
+//     for (let x=0; x<array.length;x++) {
+//         if (array[x]===target){
+//             return x
+//         }
+//     } return -5555
+// }
+// let array=[4489,48,78,78,78,554]
+// let result=targets(array,78)
+// console.log(result);
