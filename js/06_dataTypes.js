@@ -138,3 +138,25 @@
 // Object properties are written as name:value pairs, separated by commas
 
 //by default array and object comes under object null is bug
+
+
+
+//null means empty
+// let x=null
+// console.log(typeof(x));
+// if update null typeof changes from null to entered 
+// x="str"
+// console.log(typeof(x));
+
+// converting a number to bigint in two ways
+// let x=BigInt(15654) //method 1
+// let y=644n
+// console.log(typeof(x));
+// console.log(typeof(y));
+
+// bigint numbers cant add normal numbers
+
+
+
+
+

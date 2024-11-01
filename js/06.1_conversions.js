@@ -28,34 +28,25 @@
 //console.log(+x + +y); // this line adds
 
 
-//template string
-// let x=5
-// let y="im year old"
-// console.log(`im ${x} years old`);
 
-//when no value is assigned in a variable it results in undefinedf
-// when no value is assigned using const results in error
-// let x;
-// console.log(x); //results in undefined
+//add bool + numebr
+// let x =5
+// let y=true
+// console.log(x + y);
 
 
+// let x ="5"
+// let y=true
+// z=x+y
+// console.log(z,typeof(z));
+
+test=undefined + "test"
+console.log(test,typeof(test));
 
 
-//null means empty
-// let x=null
-// console.log(typeof(x));
-// if update null typeof changes from null to entered 
-// x="str"
-// console.log(typeof(x));
-
-// converting a number to bigint in two ways
-// let x=BigInt(15654) //method 1
-// let y=644n
-// console.log(typeof(x));
-// console.log(typeof(y));
-
-// bigint numbers cant add normal numbers
 
 
+
+// any data type to boolean
 
 
