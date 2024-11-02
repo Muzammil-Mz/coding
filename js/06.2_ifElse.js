@@ -42,3 +42,17 @@
 //     console.log("Grade: D");
 // }
 // // Output: Grade: B
+
+let age = 20;
+let hasVoterID = true;
+
+if (age >= 18) {
+    if (hasVoterID) {
+        console.log("You can vote.");
+    } else {
+        console.log("You need a voter ID to vote.");
+    }
+} else {
+    console.log("You are not old enough to vote.");
+}
+// Output: You can vote.
