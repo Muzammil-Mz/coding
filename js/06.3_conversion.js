@@ -118,3 +118,15 @@ let test;
 // final = 5 - undefined;//nan
 
 // console.log(final, typeof final);
+
+// explicit
+let results;
+
+// results = Number("60"); 60
+// results = Number(false) // 0 numb
+// results = Number("30") //30 num
+// results = Number("Hello") //nan
+// results = Number(undefined) //nan
+
+
+// console.log(results, typeof results);
