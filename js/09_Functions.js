@@ -434,3 +434,6 @@
 // let array=[4489,48,78,78,78,554]
 // let result=targets(array,78)
 // console.log(result);
+
+
+
