@@ -120,7 +120,7 @@ let test;
 // console.log(final, typeof final);
 
 // explicit
-let results;
+// let results;
 
 // results = Number("60"); 60
 // results = Number(false) // 0 numb
@@ -130,3 +130,17 @@ let results;
 
 
 // console.log(results, typeof results);
+
+//nested condn
+// let score = 99;
+
+// if (score > 60) {
+//   console.log("You passed.");
+//   if (score >= 90) {
+//     console.log("Congratulations! You passed with honors.");
+//   } else {
+//     console.log("Good job on passing!");
+//   }
+// } else {
+//   console.log("You failed the test.");
+// }
