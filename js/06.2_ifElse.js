@@ -53,6 +53,6 @@ if (age >= 18) {
         console.log("You need a voter ID to vote.");
     }
 } else {
-    console.log("You are not old enough to vote.");
+    console.log("You are not old enough to vote..");
 }
-// Output: You can vote.
+// Output: You can vote..
