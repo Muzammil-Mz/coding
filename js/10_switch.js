@@ -15,7 +15,7 @@
         
 // }
 let day=1
-switch (day) {
+switch (day){
     case 0:
         console.log("its sunday");
         
@@ -24,6 +24,6 @@ switch (day) {
         console.log("monday");
         break
     default:
-        console.log("sorry");
+        console.log(" sorry");
         
 }

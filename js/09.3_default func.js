@@ -42,18 +42,18 @@
 // console.log(addall(5,8,4,9));
 
 //param destructuring
-const person = {
-    name: "kihore",
-    cld: "mbbs"
-}
+// const person = {
+//     name: "kihore",
+//     cld: "mbbs"
+// }
 
 // console.log(data);
 
-function printdetails({ name, cld}) {
-    console.log(name);
-    console.log(cld);
+// function printdetails({ name, cld}) {
+//     console.log(name);
+//     console.log(cld);
 
 
-} 
-printdetails(person)
+// } 
+// printdetails(person)
 
