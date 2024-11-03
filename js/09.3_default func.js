@@ -55,5 +55,5 @@ function printdetails({ name, cld}) {
 
 
 } 
-printdetails(person )
+printdetails(person)
 
