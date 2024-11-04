@@ -1,4 +1,5 @@
-
+// /for and while are entry controlled loops
+// do while is an exit controlled loop ensuring at least one executionof loop block
 
 // for (let x=1;x<=5;x++){
 //     console.log("hello",x);
