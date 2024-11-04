@@ -11,7 +11,6 @@
 // }
 
 
-// let x=1
 // for (let x;x<=5;x++){
 //     console.log("hello",x);
     
@@ -39,3 +38,8 @@
     
 // }
 
+
+for (let x=1; x<=5;x++){
+    console.log(x);
+        
+}

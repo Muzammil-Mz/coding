@@ -6,12 +6,12 @@
 // znd it should habe semicolon at the end
 
 
-// let i=0;
-// do{
-//     console.log(i);
-//     i++
-// }
-// while (i<10)
+let i=0;
+do{
+    console.log(i);
+    i++
+}
+while (i<5)
 
 // let i=1
 // do {

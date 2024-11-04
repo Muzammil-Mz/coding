@@ -1,3 +1,15 @@
+//intialization
+//condition
+//code block {log}
+// increment decrement
+// condition
+// code block
+// increment decrement
+// condition
+
+
+
+
 // for loop
 // for (let x=0; x<=10; x++){
 //     console.log(x);
