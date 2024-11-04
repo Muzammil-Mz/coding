@@ -1,5 +1,9 @@
 // /for and while are entry controlled loops
 // do while is an exit controlled loop ensuring at least one executionof loop block
+// break continue and switch
+
+// break:statment is used to terminate the loop or switch statement when break is encountered 
+// the loop or switch ends immediatly and control is [assed to the next statment after the loop or switch
 
 // for (let x=1;x<=5;x++){
 //     console.log("hello",x);
