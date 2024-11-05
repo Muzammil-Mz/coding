@@ -44,4 +44,64 @@
    functions are reusable
    functions are the fundamental block of js
    function is a group of code designed to perform specific task 
-   js functions can be called anywhere in your program
+   js functions can be called anywhere in your program*/
+
+
+
+//    declaring function
+// function sayhello(){
+//     console.log("hello here");
+
+// }
+
+
+// function sayname(firstname){
+//     console.log(`Hello ${ firstname}`);
+
+// }
+// sayname("suhail")
+
+
+// function add(a,b){
+//     return(a+b);
+
+// }
+// console.log(add(5,4));
+
+
+// function add(a,b){
+//     console.log(a+b);
+
+// }
+// add(5,8)
+
+// function subt(a,b) {
+//     console.log(a-b);
+
+// }
+// subt(8,4)
+
+// function multiply(a,b){
+//     console.log(a*b);
+
+// }
+// multiply(5,5)
+
+//here name is a parameter so we cab pass any name when we call greet
+// greet alice prints hello alice to the the consle log byt doesnt retutn any value
+
+
+// function table(num) {
+//     for (let x = 1; x <= 10; x++) {
+//         console.log(`${num}x${x}=${num * x}`);
+
+//     }
+    
+// } 
+// table(5)
+
+// function area(length,breadth){
+//     console.log(0.5*length*breadth);
+    
+// }
+// area(5,6)

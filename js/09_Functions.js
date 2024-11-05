@@ -442,3 +442,17 @@
 
 
 
+// function addNum(a,b){
+//     let total=a+b;
+//     console.log(total);
+    
+// }
+// let final=addNum(5,7)
+// console.log(final);
+
+function addNum(a,b){
+    return a+b
+    
+}
+let final=addNum(5,7)
+console.log(final);

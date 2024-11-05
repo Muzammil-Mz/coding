@@ -143,3 +143,66 @@
 //     console.log("F");
     
 // }
+
+// if grade is 90 or above:
+// If grade is 95 or above, it outputs "Grade: A+."
+// If grade is between 90 and 94, it outputs "Grade: A."
+// If grade is between 80 and 89:
+// If grade is 85 or above, it outputs "Grade: B+."
+// If grade is between 80 and 84, it outputs "Grade: B."
+// If grade is between 70 and 79:
+// If grade is 75 or above, it outputs "Grade: C+."
+// If grade is between 70 and 74, it outputs "Grade: C."
+// If grade is between 60 and 69:
+// If grade is 65 or above, it outputs "Grade: D+."
+// If grade is between 60 and 64, it outputs "Grade: D."
+// If grade is below 60, it outputs "Grade: F."
+
+
+let grade=95
+if (grade>90){
+    if (grade>=95){
+        console.log("A+");
+        
+    } else{
+        console.log("A");
+        
+    }
+}
+
+if (grade>=80){
+    if (grade>=85){
+        console.log("B+");
+    } else {
+        console.log(("B"));
+        
+    }
+}
+
+if (grade>70){
+    if(grade>=75){
+        console.log("C+");
+        
+    } else{
+        console.log("C");
+        
+    }
+}
+
+if (grade>60){
+    if(grade>=65){
+        console.log("D+");
+        
+    } else{
+        console.log("D");
+        
+    }
+}
+else  {
+    console.log("F");
+    
+}
+
+
+
+
