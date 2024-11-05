@@ -96,12 +96,64 @@
 //         console.log(`${num}x${x}=${num * x}`);
 
 //     }
-    
+
 // } 
 // table(5)
 
 // function area(length,breadth){
 //     console.log(0.5*length*breadth);
-    
+
 // }
 // area(5,6)
+
+// let x=5
+// let y =8
+// let sum=x+y
+// console.log(sum);
+
+
+// function sum(a,b){
+//     return a+b;
+    
+// }
+// let final=sum(1,2)
+// console.log(final);
+
+
+
+// function addNum(a,b){
+//     return a+b
+
+// }
+// let final=addNum(5,7)
+// console.log(final);
+
+
+// return- if you need to get a value fromthe function use return this lets the function probide a specific result that can be saved or used
+// n return if you want the function to do something like log or alert and dont need a result dont use retutn
+
+
+// function addwithlog(){
+
+// }
+
+// function oddeven(a) {
+//     if (a % 2 == 0) {
+//         return "even"
+//     }
+//     else {
+//         return "odd"
+//     }
+// }
+// let res = oddeven(6)
+// console.log(res);
+
+
+// arrow func
+// let sum=(a,b)=>{
+//     return a+b;
+    
+// }
+// let final=sum(1,2)
+// console.log(final);
+
