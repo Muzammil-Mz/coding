@@ -43,3 +43,32 @@
 // let res=targets(array,5)
 // console.log(res);
 
+// one task arrow function
+
+// let evenodd=function(x) {
+//     return x%2==0
+// }
+// console.log(evenodd(5));
+
+// let evenodd=(x)=> { //arrow function
+//     return x%2==0
+// }
+// console.log(evenodd(5));
+
+// let evenodd=(x)=> x%2==0 //optimised arrow func
+// console.log(evenodd(5));
+
+// let hello=function(){ //aam zindaagi
+//     console.log("hello world");
+    
+// }
+// hello()
+
+// let hello=()=>{ //aam zindaagi //arrow func
+//     console.log("hello world");    
+// }
+// hello()
+
+
+// let hello=()=>("hello world");    //optimised arrow
+// console.log(hello());
