@@ -54,3 +54,16 @@
 // }
 // let final=add(1,32,5,94)
 // console.log(final);
+
+
+// finding a specific number in given array target
+
+// function specific (target,array){
+// for(let x=1;x<array.length;x++)
+//     if(target===array[x]){
+//         return x
+//     } return 555
+// } 
+// let array=[1,2,5,8,9]
+// let final=specific(9,array)
+// console.log(final);
