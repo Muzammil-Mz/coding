@@ -41,15 +41,15 @@
 // }
 // data(student)    //clear till here 
 
-let student={
-    name:"kishore",
-    clas:"12"
-}
+    // let student={
+    //     name:"kishore",
+    //     clas:"12"
+    // }
 
-function data({name,clas}){ //added as parametres of obj student here  and logged directly by calling student as argument 
-console.log(name);
-console.log(clas);
+    // function data({name,clas}){ //added as parametres of obj student here  and logged directly by calling student as argument 
+    // console.log(name);
+    // console.log(clas);
 
 
-}
-data(student)  
+    // }
+    // data(student)  
