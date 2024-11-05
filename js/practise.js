@@ -37,6 +37,20 @@
 // let age=20
 // let status= age>18 ? 'major':"minor"
 // console.log(status);
-let a=10
-let b=20
+// let a=10
+// let b=20
 
+
+
+// /adding all given numbers using rest parametres
+
+// function add(...number){
+//     let total=0
+//     for(let numbers of number){
+//         total=total+numbers
+//     }
+    
+//     return total
+// }
+// let final=add(1,32,5,94)
+// console.log(final);

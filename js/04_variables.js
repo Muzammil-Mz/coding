@@ -49,3 +49,6 @@
 // console.log(value);
 
 
+// let and const are block scope ie they can be acceess only in block ode={
+//     whereas var is functional scop
+// }

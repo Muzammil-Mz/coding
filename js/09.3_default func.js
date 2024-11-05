@@ -57,3 +57,5 @@
 // } 
 // printdetails(person)
 
+// local socpe similar to lexical scope and global scope
+// when declared variable and called during functions functions first check in lexical scope and then move to global scope in nested functions
