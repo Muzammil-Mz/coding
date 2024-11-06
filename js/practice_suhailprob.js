@@ -195,7 +195,7 @@
         
 //     }
 
-//prime numb
+//7.prime numb
 // for(let x=1;x<=10;x++){
 //     if(x/x==0){
 //         console.log(x);
@@ -203,7 +203,51 @@
 //     }
 // }
 
-let given=555
-for(x=given;x<=given;x++){
+// 8. Fibonacci Sequence: Print the first N numbers in the Fibonacci sequence.
+// 9. Sum of Digits: Calculate the sum of the digits of a given number.
+
+
+
+// 10. Guessing Game: Create a simple guessing game where the user has to guess a randomly
+// generated number.
+    
+// let guess=33
+// let originalNumb=10
+// if(guess=originalNumb){
+//     console.log("its correct");
+    
+// } else {
+//     console.log("you are close try again");
+    
+// }
+
+
+
+
+// 3. Nested If-Else with Loops and Functions Practice Problems
+// 1. Number Range Validator: Write a function that checks if a number is within a specified range (min
+// and max), and keep asking the user until a valid number is entered.
+
+
+// 2. Number Guessing with Hints: Implement a number guessing game with hints ("higher" or "lower").
+
+let number=55
+if(number==givennumber){
+    console.log("you are rigth");
     
 }
+// 3. Grading System: Write a function that takes a list of student scores and categorizes each into
+// grades A, B, C, or F.
+// 4. Password Validator: Write a function that repeatedly asks the user for a password and checks its
+// strength (e.g., if it contains numbers and special characters).
+// 5. Divisibility Checker: Write a function that checks if numbers in a list are divisible by 3 or 5 and
+// categorizes them accordingly.
+// 6. ATM Withdrawal System: Simulate an ATM that asks for a pin number and allows withdrawals up
+// to a limit if the pin is correct.
+// 7. Prime Number Generator: Write a function that generates prime numbers up to a certain limit.
+// 8. Menu-Based Calculator: Create a simple calculator using a while loop with options for addition,
+// subtraction, multiplication, and division.
+// 9. Pattern Printing: Print different patterns (like a pyramid, rectangle) based on user input using
+// nested loops.
+// 10. Palindrome Checker: Write a function to check if a string is a palindrome, using an if-else inside
+// a loop.
