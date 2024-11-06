@@ -2,10 +2,10 @@
 // let x=5
 // if(x%2==0){
 //     console.log("even");
-    
+
 // } else {
 //     console.log("odd");
-    
+
 // }
 
 
@@ -19,16 +19,16 @@
 // let mark=95
 // if(mark>=90 && mark<=100){
 //     console.log("A");
-    
+
 // } else if(mark>=80 && mark<=89){
 //     console.log("B");
-    
+
 // } else if(mark>=70 && mark<=79 ){
 //     console.log("C");
-    
+
 // } else {
 //     console.log("fail");
-    
+
 // }
 
 // 3. Number Comparison: Take two numbers as input and display the larger of the two
@@ -37,10 +37,10 @@
 // let number2=55
 // if(number1>number2){
 //     console.log(number1, " is greater");
-    
+
 // } else {
 //     console.log(number2," is greater");
-    
+
 // }
 
 // 4. Eligibility for Voting: Write a program that checks if a user is eligible to vote (18 or older).
@@ -53,13 +53,13 @@
 // let number=0
 // if(number>0){
 //     console.log(number," is positive");
-    
+
 // } else if (number===0){
 //     console.log("its zero");
-    
+
 // } else{
 //     console.log(number," is negative");
-    
+
 // }
 
 
@@ -70,10 +70,10 @@
 // if (year%4==0){
 //     console.log(year, "is leap year");
 
-    
+
 // } else{
 //     console.log("not a leap year");
-    
+
 // }
 
 
@@ -84,16 +84,16 @@
 // let grade=percentage/10
 // if (grade>=9.0&& grade<=10.0){
 //     console.log("excellent");
-    
+
 // } else if(grade>=8.0&&grade<=8.9){
 //     console.log("good");
-    
+
 // } else if (grade>=7.0 && grade<=7.9){
 //     console.log("average");
-    
+
 // } else{
 //     console.log("you should work hard ");
-    
+
 // }
 
 
@@ -104,10 +104,10 @@
 // let validpassword="user1@123"
 // if(username==validuser && password==validpassword){
 //     console.log("success");
-    
+
 // }else{
 //     console.log("sorry");
-    
+
 // }
 
 
@@ -117,10 +117,10 @@
 // let validpassword=password
 // if(username==validuser && password==validpassword){
 //     console.log("success");
-    
+
 // }else{
 //     console.log("sorry");
-    
+
 // }
 
 // 9. Discount Calculator: Calculate the discount for a purchase amount:
@@ -133,10 +133,10 @@
 //     console.log("you avail discount of 10% your final bill",price/10)
 // } else if(price>=500 && price<=1000){
 //     console.log("you avail discount of 5%",price/5);
-    
+
 // } else{
 //     console.log("sorry no discount final bill",price);
-    
+
 // }
 
 
@@ -146,13 +146,13 @@
 // let t=50
 // if(t>=0 && t<=20){
 //     console.log("cold");
-    
+
 // } else if (t>=21 && t<=30){
 //     console.log("warm");
-    
+
 // } else {
 //     console.log("hot");
-    
+
 // }
 
 
@@ -161,7 +161,7 @@
 // 1. Print Numbers 1 to 10: Use a for loop to print numbers from 1 to 10.
 // for (let x=1;x<=10;x++){
 //     console.log(x);
-    
+
 // }
 
 // 2. Sum of N Natural Numbers: Calculate the sum of the first N natural numbers using a loop.
@@ -169,14 +169,14 @@
 // for(let x=1;x<=10;x++){
 //     total=total+x
 //     console.log(total);
-    
+
 // }
 
 // 4. Multiplication Table: Print the multiplication table for any given number.
 // let y=5
 // for(let x=1;x<=10;x++){
 //     console.log(`${y}x${x}=${y*x}`);
-    
+
 // }
 
 // 5. Print Even Numbers: Print all even numbers from 1 to N.
@@ -184,22 +184,22 @@
 // for (let x=1;x<=10;x++){
 //     if (x%2==0){
 //         console.log(x,"even");
-        
+
 //     }
-    
+
 // }
 
 // 6.rev order print
 // for (let x=10;x>=1;x--){
 //         console.log(x);
-        
+
 //     }
 
 //7.prime numb
 // for(let x=1;x<=10;x++){
 //     if(x/x==0){
 //         console.log(x);
-        
+
 //     }
 // }
 
@@ -210,15 +210,15 @@
 
 // 10. Guessing Game: Create a simple guessing game where the user has to guess a randomly
 // generated number.
-    
+
 // let guess=33
 // let originalNumb=10
 // if(guess=originalNumb){
 //     console.log("its correct");
-    
+
 // } else {
 //     console.log("you are close try again");
-    
+
 // }
 
 
@@ -231,13 +231,31 @@
 
 // 2. Number Guessing with Hints: Implement a number guessing game with hints ("higher" or "lower").
 
-let number=55
-if(number==givennumber){
-    console.log("you are rigth");
-    
-}
+// let number=55
+// let enterednumb=2
+// if(numb==enterednumb)
+// else {
+//     console.log("you are rigth");
+//     }
 // 3. Grading System: Write a function that takes a list of student scores and categorizes each into
 // grades A, B, C, or F.
+// let marks = 1
+// if (marks >= 60 ){
+//     if (marks>=60&& marks<70){
+//         console.log("D");
+        
+//     }else if (marks>=80 && marks<90){
+//         console.log("C");
+        
+//     } else if(marks>=90&& marks<=100){
+//         console.log("B");
+        
+//     } 
+// }
+// else {
+//     console.log("fail");
+
+// }
 // 4. Password Validator: Write a function that repeatedly asks the user for a password and checks its
 // strength (e.g., if it contains numbers and special characters).
 // 5. Divisibility Checker: Write a function that checks if numbers in a list are divisible by 3 or 5 and
