@@ -12,7 +12,7 @@
 
 // function call(num){
 //     if (num<=)
-    
+
 // }
 
 // function fac(num){
@@ -24,6 +24,12 @@
 // console.log(fac(6));
 
 
-function call (num){
-if (num==1 || num ==0)
-returnlog}
+// function fac(num) {
+//     if (num == 1 || num == 0){
+//         return 1;
+//     }
+//     return num*fac(num-1)
+// }
+// console.log(fac(6));
+
+
