@@ -71,3 +71,5 @@
 // let array=[1,2,3,5,5]
 // let res=targets(array,5)
 // console.log(res);
+
+

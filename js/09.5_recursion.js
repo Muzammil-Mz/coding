@@ -3,8 +3,27 @@
 // no futther recursion is needed allowing the functio to start returning values back up each call.a
 // Simply recurison is defined or done in terms of itself until it reaches a stopping point
 
-function test(){
-    console.log("hello");
-    test()
-}
-test()
+// function test(){
+//     console.log("hello");
+//     test()
+// }
+// test()
+
+
+// function call(num){
+//     if (num<=)
+    
+// }
+
+// function fac(num){
+//     if(num==0 || num==2){
+//         return 1;
+//     }
+//     return num*fac(num-1)
+// }
+// console.log(fac(6));
+
+
+function call (num){
+if (num==1 || num ==0)
+returnlog}
