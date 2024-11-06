@@ -256,16 +256,32 @@
 //     console.log("fail");
 
 // }
+
+
+
 // 4. Password Validator: Write a function that repeatedly asks the user for a password and checks its
 // strength (e.g., if it contains numbers and special characters).
+
+
+
 // 5. Divisibility Checker: Write a function that checks if numbers in a list are divisible by 3 or 5 and
 // categorizes them accordingly.
+
+
 // 6. ATM Withdrawal System: Simulate an ATM that asks for a pin number and allows withdrawals up
 // to a limit if the pin is correct.
+
+
 // 7. Prime Number Generator: Write a function that generates prime numbers up to a certain limit.
+
+
 // 8. Menu-Based Calculator: Create a simple calculator using a while loop with options for addition,
 // subtraction, multiplication, and division.
+
+
 // 9. Pattern Printing: Print different patterns (like a pyramid, rectangle) based on user input using
 // nested loops.
+
+
 // 10. Palindrome Checker: Write a function to check if a string is a palindrome, using an if-else inside
 // a loop.
