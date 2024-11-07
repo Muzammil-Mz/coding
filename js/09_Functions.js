@@ -450,9 +450,16 @@
 // let final=addNum(5,7)
 // console.log(final);
 
-function addNum(a,b){
-    return a+b
+// function addNum(a,b){
+//     return a+b
     
+// }
+// let final=addNum(5,7)
+// console.log(final);
+
+
+
+function myfunc(a){
+    return myfunc
 }
-let final=addNum(5,7)
-console.log(final);
+console.log();
