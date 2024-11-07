@@ -459,7 +459,13 @@
 
 
 
-function myfunc(a){
-    return myfunc
-}
-console.log();
+// function myfunc(){
+//     function hello(){
+//         return "hello word";
+        
+//     }
+//     return hello;
+// }
+// // console.log(myfunc());
+// const ans=myfunc()
+// console.log(ans())

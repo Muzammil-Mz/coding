@@ -58,7 +58,7 @@ List of DataTypes
 
 // 1. Any DataType to String (using + operator)
 
-let marks = 2 + "0";
+// let marks = 2 + "0";
 // console.log(marks, typeof marks);
 
 // marks = "3" + 4;
@@ -105,7 +105,7 @@ let marks = 2 + "0";
 // Null to Number
 // null = 0
 
-let test;
+// let test;
 // test = 4 - null;//4 num
 // test = 4 + null;//4 num
 // console.log(test, typeof test);
