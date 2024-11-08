@@ -86,16 +86,35 @@
 // Object.create(student)
 
 //6. object.freeze(obj name) disables user to change values;key pairs
-let students={
-        name:"junaid",
-        class:"pharm d"
-    }
-Object.freeze(students)
-students.name="jd"
-students.class="mbbs"
-delete students.name  //deletes object key:value 
-console.log(students);
+// let students={
+//         name:"junaid",
+//         class:"pharm d"
+//     }
+// Object.freeze(students)
+// students.name="jd"
+// students.class="mbbs"
+// delete students.name  //deletes object key:value 
+// console.log(students);
 // object.freeze.(obj nmae)
+
+
+// 7.object.is checks wheter both datatypes and values are same or not strictly check ===
+
+// let name = "junaid"
+// let cls="jun@id"
+// console.log(Object.is(name, cls));
+
+
+
+// 8.object.isfrozen() checks whether its freeze
+let student={
+    name:"john",
+    class:"mbbs"
+}
+Object.freeze(student)
+student.name="jd"
+console.log(Object.isFrozen(student));
+
 // -----------------------------
 //object methods
 //Common Built-in Object Methods
