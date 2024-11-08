@@ -16,15 +16,31 @@
 // students.key()
 // console.log(students);
 
-let students={
-    name:"kishrep",
-    class:"bds",
-    age:35
-}
 
-console.log(Object.keys(students));
-console.log(Object.keys(students));
-console.log(Object.keys(students));
+
+//object.keys(object name) gives keys of object in array form
+//object,values(object name) gives values of object in array form
+// let students={
+//     name:"kishrep",
+//     class:"bds",
+//     age:35
+// }
+
+// console.log(Object.keys(students));
+// console.log(Object.keys(students));
+// console.log(Object.keys(students));
+
+// console.log(Object.keys(students));
+// console.log(Object.values(students));
+
+
+//object.entries(obj name) shows entries in array form
+// let students={
+//     name:"kishrep",
+//     class:"bds",
+//     age:35
+// }
+// console.log(Object.entries(students));
 
 
 
