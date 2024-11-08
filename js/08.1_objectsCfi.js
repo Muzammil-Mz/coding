@@ -42,7 +42,36 @@
 // }
 // console.log(Object.entries(students));
 
+//object.assign(objname1,objname2) this copies the key vales from source to destination i.e students-destination teacher-source simply appends
+// let students={
+//     name:"kishrep",
+//     class:"bds",
+//     age:35
+// }
 
+// let teachers={
+//     surname:"raj",
+//     division:"bio",
+//     salary:50
+// }
+// console.log(Object.assign(teachers,students));
+
+
+
+// let obj1 = {
+//     a : "something",
+//     b : 1234567
+// }
+
+// let obj2 = {
+//     c : "anything"
+// }
+// console.log(Object.assign(obj1,obj2));
+// console.log(Object.assign(obj2,obj1));
+
+
+// console.log(Object.assign(students,teachers));
+// console.log(Object.assign(teachers,students));
 
 
 // -----------------------------
