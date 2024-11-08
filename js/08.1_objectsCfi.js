@@ -18,7 +18,7 @@
 
 
 
-//object.keys(object name) gives keys of object in array form
+//1. object.keys(object name) gives keys of object in array form
 //object,values(object name) gives values of object in array form
 // let students={
 //     name:"kishrep",
@@ -34,7 +34,7 @@
 // console.log(Object.values(students));
 
 
-//object.entries(obj name) shows entries in array form
+//2. object.entries(obj name) shows entries in array form
 // let students={
 //     name:"kishrep",
 //     class:"bds",
@@ -42,7 +42,7 @@
 // }
 // console.log(Object.entries(students));
 
-//object.assign(objname1,objname2) this copies the key vales from source to destination i.e students-destination teacher-source simply appends
+//3. object.assign(objname1,objname2) this copies the key vales from source to destination i.e students-destination teacher-source simply appends
 // let students={
 //     name:"kishrep",
 //     class:"bds",
@@ -70,10 +70,32 @@
 // console.log(Object.assign(obj2,obj1));
 
 
-// console.log(Object.assign(students,teachers));
-// console.log(Object.assign(teachers,students));
+// console.log(Object.assign(students,teachers)); //data from teachers gets append into students
+// console.log(Object.assign(teachers,students)); //data from students gets append into teachers
+//console.log(object.asssign(students,teachers))  //data from teachres gets append into students
 
+// 5. object.create(obj name) this creates new object/prototypes with existing obj
+// let students={
+//     name:"junaid",
+//     class:"pharm d"
+// }
+// let interns=Object.create(students)
+// console.log(interns.age);
+//object.create(student)
+//object.create(student)
+// Object.create(student)
 
+//6. object.freeze(obj name) disables user to change values;key pairs
+let students={
+        name:"junaid",
+        class:"pharm d"
+    }
+Object.freeze(students)
+students.name="jd"
+students.class="mbbs"
+delete students.name  //deletes object key:value 
+console.log(students);
+// object.freeze.(obj nmae)
 // -----------------------------
 //object methods
 //Common Built-in Object Methods
