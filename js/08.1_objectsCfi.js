@@ -7,14 +7,27 @@
 // students.name="raju" //changes value 
 // console.log(students);
 
+// let students={
+//     name:"kishrep",
+//     class:"bds",
+//     age:35
+// }
+
+// students.key()
+// console.log(students);
+
 let students={
     name:"kishrep",
     class:"bds",
     age:35
 }
 
-students.key()
-console.log(students);
+console.log(Object.keys(students));
+console.log(Object.keys(students));
+console.log(Object.keys(students));
+
+
+
 
 // -----------------------------
 //object methods
@@ -23,11 +36,11 @@ console.log(students);
 
 //1. Object.keys(obj)
 // returns an array of keys (property name) in the object.
-let person ={
-    fName : "mohammed ismail",
-    age : 21,
-    isAlive : true
-}
+// let person ={
+//     fName : "mohammed ismail",
+//     age : 21,
+//     isAlive : true
+// }
 //console.log(Object.keys(person));
 // it will show the leftsided keys
 
@@ -35,38 +48,38 @@ let person ={
 
 //2. Object.values(objName)
 //returns an array of values in the object
-let person1 ={
-    fName : "mohammed ismail",
-    age : 21,
-    isAlive : true
-}
+// let person1 ={
+//     fName : "mohammed ismail",
+//     age : 21,
+//     isAlive : true
+// }
 
 //console.log(Object.values(person));
 // it will show the rightsided keys
 
 //3. Object.entries(objName)
 
-let person2 ={
-    fName : "mohammed ismail",
-    age : 21,
-    isAlive : true
-}
+// let person2 ={
+//     fName : "mohammed ismail",
+//     age : 21,
+//     isAlive : true
+// }
 //console.log(Object.entries(person));
 
 //4. Object.assign(objName)
 //returns an object which clones the object. the second Obj will assigned(moved) into first obj
-let obj1 = {
-    a : "something",
-    b : 1234567
-}
+// let obj1 = {
+//     a : "something",
+//     b : 1234567
+// }
 
-let obj2 = {
-    c : "anything"
-}
+// let obj2 = {
+//     c : "anything"
+// }
 
 
-console.log(Object.assign(obj1,obj2));
-console.log(Object.assign(obj2,obj1));
+// console.log(Object.assign(obj1,obj2));
+// console.log(Object.assign(obj2,obj1));
 
 
 //5.Object.create(objName)
@@ -74,78 +87,78 @@ console.log(Object.assign(obj2,obj1));
 //additional properties. this is particularly useful whrn you want to establish prototype- based inheritance, allowing
 // one object to inherit properties and methods from another
 
-let actor = {
-    name : "shah rukh khan",
-    age : 58,
+// let actor = {
+//     name : "shah rukh khan",
+//     age : 58,
 
-}
+// }
 
-let hero = Object.create(actor); 
-console.log(hero.name)
+// let hero = Object.create(actor); 
+// console.log(hero.name)
 
 //6.Object.freeze(objName)
 //In JavaScript, Object.freeze will freeze ur key value pair or whole object
 
-let mall = {
-    area : "central",
-    city : "hyderabad"
-}
+// let mall = {
+//     area : "central",
+//     city : "hyderabad"
+// }
 
-Object.freeze(mall)
-mall.city = "mumbai"                // these values are not getting add delete or edited because the first values are freezed neither it can chng nor deleted
-mall.zip = 500045,
-delete mall.area
+// Object.freeze(mall)
+// mall.city = "mumbai"                // these values are not getting add delete or edited because the first values are freezed neither it can chng nor deleted
+// mall.zip = 500045,
+// delete mall.area
 
-console.log(mall)
+// console.log(mall)
 
 
 //7. Object.is
 // In JavaScript, object.is checks if 2 values are teh same values are not
 
-let a =10;
-let b = 10;
-console.log(Object.is(a,b));             //it compares the first value with second value if it is same then it is true, if it is not same then it will be false
+// let a =10;
+// let b = 10;
+// console.log(Object.is(a,b));             //it compares the first value with second value if it is same then it is true, if it is not same then it will be false
 
 
 //8. Object.isFrozen(objName)
 
-let person3 = {
-    name: "Ismail",
-    age : 23
-}
+// let person3 = {
+//     name: "Ismail",
+//     age : 23
+// }
 
-console.log(Object.freeze(person3));               
-console.log(Object.isFrozen(person3));          //it shows in true or false. if the object is freezed it will show as true and if the object is unfreezed then it will show as false
+// console.log(Object.freeze(person3));               
+// console.log(Object.isFrozen(person3));          //it shows in true or false. if the object is freezed it will show as true and if the object is unfreezed then it will show as false
 
 
 //9.Object.toString()
 
-let number = 10;
-let check = number.toString(2);
-console.log(check);
+// let number = 10;
+// let check = number.toString(2);
+// console.log(check);
 
-let number1 = 64;
-let check1 = number1.toString(16)
-console.log(check1)
+// let number1 = 64;
+// let check1 = number1.toString(16)
+// console.log(check1)
 
 
 
 //10. Object.seal
 // In JavaScript,Object.seal using seal you can update the key value pairs which is existing but it will not allow add or delete
 
-let hello = {
-    fName : "hello",
-    age : 21
-}
+// let hello = {
+//     fName : "hello",
+//     age : 21
+// }
 
-Object.seal(hello)
-hello.fName = "bye"
+// Object.seal(hello)
+// hello.fName = "bye"
 
-console.log(Object.isSealed(hello))
+// console.log(Object.isSealed(hello))
 
-hello.isAlive = true ; //it is not added bcz it is not a existing value in seal we can't add or delete the new values
+// hello.isAlive = true ; //it is not added bcz it is not a existing value in seal we can't add or delete the new values
 
-console.log(hello);
+// console.log(hello);
 
 // let students = ["orgName" , "apple"]
 // console.log(Object.fromEntries(students))
