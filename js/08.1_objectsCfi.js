@@ -125,14 +125,14 @@
 
 
 //10. object.seal(obj name) edits existing key value pairs
-let studen={
-    name:"kishore",
-    class:"bs"
-}
+// let studen={
+//     name:"kishore",
+//     class:"bs"
+// }
 
-Object.seal(studen)
-studen.nsame="jun"
-console.log(studen);
+// Object.seal(studen)
+// studen.nsame="jun"
+// console.log(studen);
 
 
 
