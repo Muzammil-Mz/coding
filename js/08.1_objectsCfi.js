@@ -107,13 +107,34 @@
 
 
 // 8.object.isfrozen() checks whether its freeze
-let student={
-    name:"john",
-    class:"mbbs"
+// let student={
+//     name:"john",
+//     class:"mbbs"
+// }
+// Object.freeze(student)
+// student.name="jd"
+// console.log(Object.isFrozen(student));
+
+
+
+// 9.object.tostring() used to convert numbrs to hexa,octa,decimal,binary
+// let number = 10;
+// let check = number.toString(16);
+// console.log(check);
+
+
+
+//10. object.seal(obj name) edits existing key value pairs
+let studen={
+    name:"kishore",
+    class:"bs"
 }
-Object.freeze(student)
-student.name="jd"
-console.log(Object.isFrozen(student));
+
+Object.seal(studen)
+studen.nsame="jun"
+console.log(studen);
+
+
 
 // -----------------------------
 //object methods
