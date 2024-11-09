@@ -136,3 +136,32 @@
 // let text="Hello World Hello"
 // let text2=text.split()
 // console.log(text2);
+
+// 20.search() searches specific term -- return -1 if not present 
+// let text="Hello World Hello"
+// let text2=text.search("2")
+// console.log(text2);
+
+// 21.include() checks whehthre presebt -- return false if not prsnt
+// let text="Hello World Hello"
+// let text2=text.includes("world")
+// console.log(text2);
+
+// 22. match shows where its located in the string
+// let text="Hello World Hello"
+// let text2=text.match("ello")
+// console.log(text2);
+
+// 23.startswith checks if present in start
+// let text="Hello World Hello"
+// let text2=text.startsWith("Hello")
+// console.log(text2);
+
+
+
+// using for of to seperate each element of str
+let text="Hello World Hello"
+for (let y of text){
+    console.log(y);
+    
+}

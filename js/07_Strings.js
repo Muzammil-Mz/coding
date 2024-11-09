@@ -193,7 +193,7 @@
 // let text2= (firstName, lastName)
 
 
-//accessing each part of string using loop
+// accessing each part of string using loop
 // let x="hello world"
 // for (let y of x) {
 //     console.log(y);
