@@ -117,6 +117,22 @@
 // let text2=text.replace(/hello/i,"hi")  //i is insensitive char here Hello is orig and hello is given
 // console.log(text2);
 
-let text="Hello World Hello"
-let text2=text.replace(/Hello/g,"hi")  //g replaces all characters matching bt case sensit
-console.log(text2);
+// let text="Hello World Hello"
+// let text2=text.replace(/Hello/g,"hi")  //g replaces all characters matching bt case sensit
+// console.log(text2);
+
+// 17.replaceall()
+// let text="Hello World Hello"
+// let text2=text.replaceAll(/Hello/g,"hi")
+// console.log(text2);
+
+
+// 18.indexof() -- gives index of String if doesnt find any match returns -1
+// let text="Hello World Hello"
+// let text2=text.indexOf("Hello") 
+// console.log(text2);
+
+// 19. string can be converted to an array with the split() method
+// let text="Hello World Hello"
+// let text2=text.split()
+// console.log(text2);
