@@ -147,7 +147,7 @@
 // let text2=text.includes("world")
 // console.log(text2);
 
-// 22. match shows where its located in the string
+// 22. match shows where its located in the string can use global case insenitive prop
 // let text="Hello World Hello"
 // let text2=text.match("ello")
 // console.log(text2);
@@ -160,8 +160,8 @@
 
 
 // using for of to seperate each element of str
-let text="Hello World Hello"
-for (let y of text){
-    console.log(y);
+// let text="Hello World Hello"
+// for (let y of text){
+//     console.log(y);
     
-}
+// }
