@@ -88,6 +88,35 @@
 
 
 // 13.The padStart() method pads a string from the start - pading nothing but addition of extra material pattern or anything
-let text="hello"
-let game=text.padStart(10,"!")
-console.log(game);
+// let text="hello"
+// let game=text.padStart(10,"!") //here 10 is the number of times to pad and  ! is item to be padded 
+// console.log(game);
+
+
+// 14.The padStart() method pads a string from the start - pading nothing but addition of extra material pattern or anything
+// let text="hello"
+// let game=text.padEnd(10,"!") //here 10 is the number of times to pad and  ! is item to be padded 
+// console.log(game);
+
+
+
+// 15.The repeat() method returns a string with a number of copies of a string
+// let text=" hello"
+// let game=text.repeat(5)
+// console.log(game);
+
+
+// 16. replace() replaces the string with new values ,The replace() method replaces only the first match
+// let text="Hello World"
+// let text2=text.replace("Hello","hi")
+// console.log(text2);
+
+
+//replace(/string/i) changes only first 
+// let text="Hello World Hello"
+// let text2=text.replace(/hello/i,"hi")  //i is insensitive char here Hello is orig and hello is given
+// console.log(text2);
+
+let text="Hello World Hello"
+let text2=text.replace(/Hello/g,"hi")  //g replaces all characters matching bt case sensit
+console.log(text2);
