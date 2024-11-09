@@ -184,10 +184,27 @@
 // console.log(String.fromCharCode(189, 43, 190, 61));
 
 
-const a = 'réservé'; // With accents, lowercase
-const b = 'RESERVE'; // No accents, uppercase
+// const a = 'réservé'; // With accents, lowercase
+// const b = 'RESERVE'; // No accents, uppercase
 
-console.log(a.localeCompare(b));
+// console.log(a.localeCompare(b));
 // Expected output: 1
-console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
+// console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
 // Expected output: 0
+
+
+//localeCompare() returns one of 3 numbers indicating the sort order.
+
+// -1 if sorted before`
+// 1 if sorted after
+// 0 if equal
+
+// ​let text1 = "ab";
+// let text2 = "cd";
+// let result = text1.localeCompare(text2);//-1
+
+
+
+let text1 = "cd";
+let text2 = "ab";
+let result = text1.localeCompare(text2);
