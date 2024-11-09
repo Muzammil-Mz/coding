@@ -37,6 +37,10 @@
 // let text = "HELLO WORLD";
 // let char = text.charAt(0);--- H
 
+// let text="hello world"
+// let text2=text.at(2)
+// console.log(text2);
+
 // let text = "HELLO WORLD";
 // let char = text.charCodeAt(0);===H
 
