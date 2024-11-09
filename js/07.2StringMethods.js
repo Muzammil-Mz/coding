@@ -201,10 +201,11 @@
 
 // ​let text1 = "ab";
 // let text2 = "cd";
-// let result = text1.localeCompare(text2);//-1
+// let result = text1.localeCompare(text2);//-1 AB COMES BEFORE CD
 
 
 
-let text1 = "cd";
-let text2 = "ab";
-let result = text1.localeCompare(text2);
+// let text1 = "cd";
+// let text2 = "ab";
+// let result = text1.localeCompare(text2);
+// console.log(result);//+1 CD COMES AFTER AB
