@@ -152,6 +152,14 @@
 // let text2=text.match("ello")
 // console.log(text2);
 
+
+
+// let text = "I love cats. Cats are very easy to love. Cats are very popular."
+// let text2=text.match(/cats/i);
+// console.log(text2);
+
+
+
 // 23.startswith checks if present in start
 // let text="Hello World Hello"
 // let text2=text.startsWith("Hello")
@@ -159,9 +167,27 @@
 
 
 
-// using for of to seperate each element of str
+// using for loop to seperate each element of str
 // let text="Hello World Hello"
 // for (let y of text){
 //     console.log(y);
     
 // }
+
+
+// The String.fromCodePoint() static method returns a string created from the specified sequence of code points
+// console.log(String.fromCodePoint(9731, 9733, 9842, 0x2f804));
+
+
+
+// The String.fromCharCode() static method returns a string created from the specified sequence of UTF-16 code units
+// console.log(String.fromCharCode(189, 43, 190, 61));
+
+
+const a = 'réservé'; // With accents, lowercase
+const b = 'RESERVE'; // No accents, uppercase
+
+console.log(a.localeCompare(b));
+// Expected output: 1
+console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
+// Expected output: 0
