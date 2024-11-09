@@ -52,7 +52,42 @@
 // let char = text.toLowerCase();
 // console.log(char)
 
+// 8.toUpperCase(); - to upper case
+// let text="hello world";
+// let char = text.toUpperCase();
+// console.log(char)
 
-let text="hello world";
-let char = text.toUpperCase();
-console.log(char)
+// 9.concat() joins two or more strings:
+// let text="hello";
+// let char = "world"
+// console.log(text.concat(" ",char))
+
+
+// let text="hello";
+// let char = "world"
+// console.log(text +" "+ char)
+
+//Strings are immutable: Strings cannot be changed, only replaced.
+
+
+// 10.trim()
+// let text = "   HELLO WORLD          ";
+// let char = text.trim(); //removes empty spaces from string
+// console.log(text);
+
+
+// 11.trimstart() -- remves white spaces from start only
+// let text = "  HELLO WORLD";
+// let char = text.trimStart(); //
+// console.log(char);
+
+// 12.trimstart() -- remves white spaces from start only
+// let text = " HELLO WORLD   8";
+// let char = text.trimEnd(); //
+// console.log(char);
+
+
+// 13.The padStart() method pads a string from the start - pading nothing but addition of extra material pattern or anything
+let text="hello"
+let game=text.padStart(10,"!")
+console.log(game);
