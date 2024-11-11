@@ -514,8 +514,30 @@
 // console.log(total);
 
 
-function stree(){
-    console.log("oh");
-    stree()
-}
-stree()
+// function stree(){
+//     console.log("oh");
+//     stree()
+// }
+// stree()
+
+// for (let i=10;i>=1;i--){
+//     console.log(i);
+    
+// }
+
+// for (let i=1;i<=5;i++){
+    // console.log(i);
+    
+    // console.log(result*=i);
+// }
+
+
+// let result=1
+// let factorial=5
+// for (let i=1;i<=factorial;i++){
+//     // console.log(i);
+    
+//     console.log(result*=i);
+// }
+
+
