@@ -107,6 +107,15 @@
 // typeof	    Returns the type of a variable
 // instanceof	Returns true if an object is an instance of an object type
 
+// let student={
+//     name:'kishore',
+//     age:22
+// }
+// console.log(student instanceof Boolean);
+
+// let name="kis"
+// console.log(name instanceof String);
+
 
 // 1. The logical AND assignment operator (&&=) combines this behavior with assignment:
 // falsy - zero unassigned 

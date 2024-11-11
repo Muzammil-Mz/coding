@@ -121,7 +121,9 @@
 // arrays can also be created with let studets=["kishore","junaid", "aslam"]
 // (or)
 
-// let students= new Array("junaid", "kishore","aslam")
+let students= new Array("junaid", "kishore","aslam")
+console.log(Array.isArray(students));
+
 
 // to find out wheter given variable is array or not 
 // let students=['kishore',"juaid"]
