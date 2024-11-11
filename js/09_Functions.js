@@ -378,10 +378,10 @@
 // function oddeven(a){
 //     if (a%2==0){
 //         return("even");
-        
+
 //     } else {     
 //         return("odd");
-        
+
 //     }
 // }
 // let result=oddeven(8)
@@ -445,14 +445,14 @@
 // function addNum(a,b){
 //     let total=a+b;
 //     console.log(total);
-    
+
 // }
 // let final=addNum(5,7)
 // console.log(final);
 
 // function addNum(a,b){
 //     return a+b
-    
+
 // }
 // let final=addNum(5,7)
 // console.log(final);
@@ -462,10 +462,43 @@
 // function myfunc(){
 //     function hello(){
 //         return "hello word";
-        
+
 //     }
 //     return hello;
 // }
 // // console.log(myfunc());
 // const ans=myfunc()
 // console.log(ans())
+
+
+
+// function add(a,b){
+// let total=a+b
+// console.log(total);
+
+// }
+// add (1,5)
+
+
+
+
+// function add(a, b) {
+//     let total = a + b
+//     return total
+
+// }
+// add(5, 2)
+// console.log(add (5,2));
+
+
+let x=1
+while (x<10) {
+    console.log("hello",x);
+    x++
+}
+
+let y=5
+do(y>2){
+    console.log("hello");
+    
+}

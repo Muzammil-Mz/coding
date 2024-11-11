@@ -67,3 +67,7 @@
 // let array=[1,2,5,8,9]
 // let final=specific(9,array)
 // console.log(final);
+
+
+let fruits="Hello World"
+console.log(fruits.slice (2,5));
