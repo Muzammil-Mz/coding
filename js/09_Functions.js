@@ -491,14 +491,31 @@
 // console.log(add (5,2));
 
 
-let x=1
-while (x<10) {
-    console.log("hello",x);
-    x++
-}
+// let x=1
+// while (x<10) {
+//     console.log("hello",x);
+//     x++
+// }
 
-let y=5
-do(y>2){
-    console.log("hello");
+// let y=5
+// do(y>2){
+//     console.log("hello");
     
+// }
+
+
+// function actorial
+// function factorial(){
+//     if (num==0 || num==1)
+//         return 1;
+// }
+// return num*factorial(num-1)
+// let total=num(5)
+// console.log(total);
+
+
+function stree(){
+    console.log("oh");
+    stree()
 }
+stree()

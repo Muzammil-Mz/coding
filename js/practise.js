@@ -6,7 +6,7 @@
 
 // let x =1
 // while (condition) {
-    
+
 // }
 
 
@@ -17,13 +17,13 @@
 
 // if (x>y && x>z ) {
 //     console.log("x is largest number");
-    
+
 // } else if (y>x && y>z) {
 //     console.log("y is largest number");
-    
+
 // } else if (z>x && z>y)  {
 //     console.log("z is the largest");
-    
+
 // } else {
 // console.log("invalid numbers try again" );
 
@@ -49,7 +49,7 @@
 //     for(let numbers of number){
 //         total=total+numbers
 //     }
-    
+
 //     return total
 // }
 // let final=add(1,32,5,94)
@@ -69,5 +69,24 @@
 // console.log(final);
 
 
-let fruits="Hello World"
-console.log(fruits.slice (2,5));
+// let fruits="Hello World"
+// console.log(fruits.slice (2,5));
+
+
+
+// for (let x=1 ; x <= 10; x++) {
+//     console.log(x)
+//     if (x == 5) {
+//         break;
+//     }
+// }
+
+
+for (let x=1 ; x <= 10; x++) {
+    console.log(x)
+    if (x == 5) {
+        continue;
+    }
+}
+
+
