@@ -78,7 +78,7 @@ List of DataTypes
 
 // Any DataType to Number (using with  -. / , *)
 
-let results;
+// let results;
 // results = "4" - 2; //2 num
 // results = 4 + 5 //9 num
 // results = "4" - 3; //num
@@ -86,7 +86,7 @@ let results;
 // results = "5" - "hi"; //nan
 // results = "5" - true;// 4 numb
 
-console.log(results, typeof results);
+// console.log(results, typeof results);
 
 // Any Datatype to Boolean
 
