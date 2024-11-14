@@ -59,34 +59,34 @@ List of DataTypes
 // 1. Any DataType to String (using + operator)
 
 // let marks = 2 + "0";
-// console.log(marks, typeof marks);
+// console.log(marks, typeof marks);// 20string
 
 // marks = "3" + 4;
-// console.log(marks, typeof marks);
+// console.log(marks, typeof marks); //34 string
 
-// marks = "3" + undefined;
-// console.log(marks, typeof marks);
+// marks = 3 + undefined;
+// console.log(marks, typeof marks); 3undefined string
 
 // marks = "5" + null;
-// console.log(marks, typeof marks);
+// console.log(marks, typeof marks); //5null string
 
 // marks = false + "10";
-// console.log(marks, typeof marks);
+// console.log(marks, typeof marks); //false10 stirng
 
 // let number = 5 + "5";
-// console.log(number,typeof number);
+// console.log(number,typeof number); //55string
 
 // Any DataType to Number (using with  -. / , *)
 
-// let results;
+let results;
 // results = "4" - 2; //2 num
 // results = 4 + 5 //9 num
 // results = "4" - 3; //num
 // results = "hello" - "hi"; // nan
 // results = "5" - "hi"; //nan
-// results = "5" - true; 4 numb
+// results = "5" - true;// 4 numb
 
-// console.log(results, typeof results);
+console.log(results, typeof results);
 
 // Any Datatype to Boolean
 
