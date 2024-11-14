@@ -3,23 +3,24 @@
 // console.log(status);
 
 // let num = 42;
-//  let text = "Hello";
-//  console.log(typeof num); // "number"
-//  console.log(typeof text); // "string"
-//  console.log(typeof undefined); // "undefined"
-//  console.log(typeof null); // "object" (special case)
+// let text = "Hello";
+// console.log(typeof num); // "number"
+// console.log(typeof text); // "string"
+// console.log(typeof undefined); // "undefined"
+// console.log(typeof null); // "object" (special case)
 
 
 
 
+// let x=10
+// let y=20
+// let z=30
+// let result=x>y && y>x ? "x": y>x && y>z ? "y": "z"
+// console.log(result);
 
 
-// let x=20
-// let y=15
-// let z=10
 
-// let greatest=x>y && x>z; y>x && y>z ; z>x && z>y ? 'x is greter':"y is greater" : "z is greater"; ------ correct form
- 
+
 // let x = 20;
 // let y = 15;
 // let z = 10;
