@@ -228,20 +228,33 @@
 
 //nested
 
-let age=21
-if(age>18){
-    if(age==19){
-        console.log("your age is 19");
+// let age=8
+// if(age>18){
+//     if(age==19){
+//         console.log("your age is 19");
         
-    }else if (age===20){
-        console.log("age is 20");
+//     }else if (age===20){
+//         console.log("age is 20");
         
-    }else if (age>=21){
-        console.log("age is 22");
+//     }else if (age>=21){
+//         console.log("age is 22");
         
-    }
-    else {
-        console.log("age is less than 18");
-        
-    }
-}
+//     }
+// }
+//     else {
+//         console.log("age is less than 18");
+//     }
+
+
+
+// let x=1 
+// let result=x%2==0 ? "even":"odd"
+// console.log(result);
+
+
+// let x=1000;
+// let y=110
+// let z=12
+
+// let result=x>y && x>z ? "x is greater" : y>x&& y>z ? "y is greater":"Z is greatr"
+// console.log(result);
