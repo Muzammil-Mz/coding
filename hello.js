@@ -148,4 +148,27 @@
 //     x++
 
 // }
-// //print numbers using function simple function , return function, function expression, arrow function
+
+
+
+
+// let x=1
+// for(x;x<=10;x++){
+//     if(x==5){
+//         continue
+//     }
+//     console.log(x);
+
+// }
+
+
+let x = 1
+while (x <= 10) {
+    if (x == 4) {
+        x++     //this line is included inorder to restartincrement from 4 and start with 5 after 3
+        continue
+    } console.log(x);
+    x++
+
+}
+// print numbers using function simple function , return function, function expression, arrow function
