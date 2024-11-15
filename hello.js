@@ -89,6 +89,10 @@
 
 ////////////////////////////////
 // 1.print numbers from 1 t0 10 
+for(let x=1;x<=10;x++){
+    console.log(x);
+    
+}
 // 2.print numbers from 1 to 10 and add first 10 numbers
 // 3.print mumbers from 1 to 10 break , continue
 //print numbers using function simple function , return function, function expression, arrow function
