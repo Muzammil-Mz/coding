@@ -141,11 +141,11 @@
 
 let x = 1
 while (x <= 10) {
-    if (x == 5) {+
+    if (x == 5) {
         break
     } 
     console.log(x);
-
+    x++
 
 }
 //print numbers using function simple function , return function, function expression, arrow function
