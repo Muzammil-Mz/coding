@@ -37,9 +37,20 @@
     
 // }, 12000)
 
+
+//this function shows name and after 2 sec age
 // console.log("suhail");
 
 // setTimeout((age) => {
 //     console.log(`hello, ${age}`);
     
 // }, 2000,20);
+
+//adding two numbers using settimeout
+// function add(a,b){
+//     setTimeout(()=>{
+//         console.log(a+b)
+//     },2000)
+
+// }
+// add (5,8)
