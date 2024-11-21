@@ -51,3 +51,19 @@
 // do/while - also loops through a block of code while a specified condition is true
 
 
+
+// for (let x=1;x<=10;x++){
+//     let start=""
+//     for(let j=0;j<=10;j++){
+//         start=start+j
+        
+//     }
+//     console.log(start);
+    
+
+// }//012345678910 10times
+
+
+
+
+

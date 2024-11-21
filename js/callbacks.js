@@ -4,6 +4,24 @@
 
 // A callback function can run after another function has finished
 
+// function sum(a,b){
+//     console.log(a+b);
+    
+// }
+
+// function calculator(a,b,sum){
+//     sum(a,b)
+// }
+
+// calculator(1,2,sum)
+
+
+
+
+
+
+
+
 
 // // Step 1: Prepare Ingredients
 // function prepareIngredients(nextStep) {
@@ -88,10 +106,6 @@
 
 
 
-setTimeout(function() {
-    console.log("hey");
-    
-}, 3000);
 
 
 
@@ -161,50 +175,50 @@ setTimeout(function() {
 // bunch of call backs become callbackk hell
 
 
-function prepare(start){
-    console.log("wash rice");
-    console.log('prepare ingredietns');
+// function prepare(start){
+//     console.log("wash rice");
+//     console.log('prepare ingredietns');
     
- start()   
-}
+//  start()   
+// }
 
 
-function boil (start){
-    console.log("boil the rice");
-    console.log("boil more");
+// function boil (start){
+//     console.log("boil the rice");
+//     console.log("boil more");
     
     
-}
+// }
 
-function mix(start){
-    console.log("add spoces");
-    console.log("add rice");
+// function mix(start){
+//     console.log("add spoces");
+//     console.log("add rice");
     
-    start()
-}
+//     start()
+// }
 
 
 
-function final (){
-    console.log("bring plates");
-console.log("yes bring");
+// function final (){
+//     console.log("bring plates");
+// console.log("yes bring");
 
 
     
-}
+// }
 
-prepare(()=>{
-    boil (()=>{
-        mix(()=>{
-            final(()=>{
+// prepare(()=>{
+//     boil (()=>{
+//         mix(()=>{
+//             final(()=>{
 
-            })
+//             })
 
-        })
+//         })
 
 
-    })
-})
+//     })
+// })
 
 
 // let voc=(a,b)=>{
