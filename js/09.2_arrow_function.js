@@ -1,4 +1,4 @@
-// function birthday ()={                    //-----------------1st form
+// function birthday (){                    //-----------------1st form
 //     console.log("happy to you");
     
 // }
