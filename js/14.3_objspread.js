@@ -20,6 +20,6 @@ let obj2={
     name:'junaid',
     class:"d"
 }
-let obj3={...obj1}
+let obj3={...obj2,...obj1}
 console.log(obj3);
 

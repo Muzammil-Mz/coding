@@ -9,15 +9,15 @@
 // team.teamA="jun" // to update value of key
 // console.log(team);
 
-// const team={
-//     teamA:"junaid",
-//     teamB:'kishore',
-//     teamC:'abdul'
-// }
+const team={
+    teamA:"junaid",
+    teamB:'kishore',
+    teamC:'abdul'
+}
 
 
-// let {teamA:teammA, teamB}=team
-// console.log(teammA); //this changes the key name from teamA to teammA
+let {teamA:teammA, teamB}=team
+console.log(teammA); //this changes the key name from teamA to teammA
 
 // const team={
 //     teamA:"junaid",
