@@ -1,5 +1,5 @@
 //set interval
-//executes code after every given secong
+//executes code after every given second
 
 // let timer=setInterval(()=>{
 //     console.log("helloo");
