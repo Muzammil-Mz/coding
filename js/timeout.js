@@ -1,9 +1,4 @@
 //
-
-
-
-
-
 // function delaymessage(name,time){
 //     return setTimeout(() => {
 //         console.log(`hey ${name,time}  `);
@@ -18,8 +13,6 @@
 //     console.log(`${name,time}`);
     
 
-
-
 // }, time * 1000);
 // }
 // delaytime ("abd",2)
@@ -28,7 +21,7 @@
 // setTimeout(()=>{
 //     console.log("HELLO");
     
-// },2000) //here 2000 is 
+// },2000) //here 2000 is  timer
 
 
 

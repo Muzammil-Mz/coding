@@ -18,3 +18,17 @@
 // setTimeout(() => {
 //   clearInterval(timer)  
 // }, 5000); //this stops after 5 scenonds
+
+
+//fun with settimeout and setinterval
+// let timer=10
+// console.log("your timer starts now");
+// let countdown=setInterval(()=>{
+    
+    
+//     console.log(timer);
+//     timer--
+
+//     if(timer<0)
+//         clearInterval (countdown)
+// },1000)
