@@ -44,15 +44,16 @@
 // Property values in an object can be other objects:
 
 // Example
-// myObj = {
-//   name:"John",
-//   age:30,
-//   myCars: {
-//     car1:"Ford",
-//     car2:"BMW",
-//     car3:"Fiat"
-//   }
-// }
+let myObj = {
+  name:"John",
+  age:30,
+  myCars: {
+    car1:"Ford",
+    car2:"BMW",
+    car3:"Fiat"
+  }
+}
+
 
 
 // const student={
@@ -112,14 +113,14 @@
 //     console.log(fruit.x); //this gives undefined
 // }
 
-// const fruit={
-//     yellow:"mago",
-//     brown:22,
-//     black:"kiwi"
-// }
-// for(let x in fruit){ //
-//     console.log(fruit[x]); //this gives values
-// }
+const fruit={
+    yellow:"mago",
+    brown:22,
+    black:"kiwi"
+}
+for(let x in fruit){ //
+    console.log(x,":",fruit[x]); //this gives values
+}
 
 
 //to get both key and values useing temp string

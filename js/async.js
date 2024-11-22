@@ -67,7 +67,7 @@ function checkavailability(product){
 // .catch((error)=>{
 //     console.log("error",error);
     
-// })
+// })                                                   //promises
 
 
 async function laptopavailability(product) {
@@ -83,4 +83,4 @@ console.log(message3);
         
     }
 }
-laptopavailability("laptop")
+laptopavailability("laptop")                        //async
