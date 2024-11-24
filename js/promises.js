@@ -55,7 +55,7 @@
 // //                 reject (`${product} is not available `)
 // //             }
 // //         })
-        
+
 // //     })
 // // }
 
@@ -71,7 +71,7 @@
 //             }
 //             else {
 //                 reject(`${product} is not availabele`);
-                
+
 //             }
 //         },1000)
 //     })
@@ -100,7 +100,7 @@
 //         const locallyavailable=ture
 //         if (locallyavailable){
 //             resolve(`${product} available locally`);
-            
+
 //         } else{
 //             reject (`${product} not avaiable`)
 //         }
@@ -132,7 +132,7 @@
 // .thn ((message)=>{
 //     console.log("success",message);
 //     return chceck 
-    
+
 // })
 
 
@@ -152,7 +152,7 @@
 // evenodd()
 // .then((message)=>{
 //   console.log("success",message);
-    
+
 // })
 // .catch((error)=>{
 // console.log("error",error.message ,error.name);
@@ -160,60 +160,83 @@
 // })
 
 
-let checkstock=(product)=>{
-    return new Promise ((resolve,reject)=>{
-setTimeout(() => {
-  if (product=="laptop"){
-    resolve("product is available yes")
-  }  else {
-    reject("product not avaialbe")
-  }
-}, 2000);
+let checkstock = (product) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            if (product == "laptop") {
+                resolve("product is available yes")
+            } else {
+                reject("product not avaialbe")
+            }
+        }, 2000);
     })
 }
 
-let blackcolor=((product)=>{
-    return new Promise ((resolve,reject)=>{
+let blackcolor = ((product) => {
+    return new Promise((resolve, reject) => {
         setTimeout(() => {
-            const black=true
-            if(black){
+            const black = true
+            if (black) {
                 resolve("yes its black")
-            }reject("sorry its not black")
-        },2000);
-    })
-})
-
-
-let config=((product)=>{
-    return new Promise((resolve,reject)=>{
-        setTimeout(() => {
-           const i5=true
-           if(i5){
-            resolve("yes its i5")
-           } 
-           reject("sorry no such config")
+            } reject("sorry its not black")
         }, 2000);
     })
 })
 
 
-checkstock("laptop")
-.then((message)=>{
-console.log("sucess",message);
+let config = ((product) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const i5 = true
+            if (i5) {
+                resolve("yes its i5")
+            }
+            reject("sorry no such config")
+        }, 2000);
+    })
+})
 
 
-return blackcolor ("laptop")
-})
-.then ((message)=>{
-    console.log("success",message);
-    return config ("laptop")
-})
-.then((message)=>{
-    console.log("success",message);
+// checkstock("laptop")
+// .then((message)=>{
+// console.log("sucess",message);
+
+
+// return blackcolor ("laptop")
+// })
+// .then ((message)=>{
+//     console.log("success",message);
+//     return config ("laptop")
+// })
+// .then((message)=>{
+//     console.log("success",message);
+
+// })
+
+// .catch((error)=>{
+// console.log(error,"error");
+
+// })
+
+
+//now usong async await
+
+async function finalcheck(product) {
+    try {
+        const stock = await checkstock(product)
+        console.log("success", stock);
+
+
+        const colorconf = await blackcolor(product)
+        console.log("success", colorconf);
+
+
+        const configmessage = await config(product)
+        console.log("suce555ess", configmessage);
+
     
-})
-
-.catch((error)=>{
-console.log(error,"error");
-
-})
+}catch (error) {
+    console.log('error', error);
+    }
+}
+finalcheck("laptop")
