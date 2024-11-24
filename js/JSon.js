@@ -13,5 +13,3 @@
     "Age":55
 }
 
-//interoprability:used to trasfer between serve nd  aclietn
-api- most modern api retun data in jp

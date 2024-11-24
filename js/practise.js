@@ -82,11 +82,39 @@
 // }
 
 
-for (let x=1 ; x <= 10; x++) {
-    console.log(x)
-    if (x == 5) {
-        continue;
-    }
-}
+// for (let x=1 ; x <= 10; x++) {
+//     console.log(x)
+//     if (x == 5) {
+//         continue;
+//     }
+// }
 
 
+// function where(hello){
+//     console.log("kaha hae bhai");
+//     hello()
+// }
+
+// function how (hello){
+//     console.log("kya karre");
+//     hello()
+// }
+
+// function when(hello){
+//     console.log("kaisa hua");
+//    hello()
+// }
+// function acha(hello){
+//     console.log("okay no problem");
+    
+// }
+
+// where((hello)=>{
+//     how((hello)=>{
+//         when((hello)=>{
+//             acha(hello)
+
+//         })
+
+//     })
+// })
