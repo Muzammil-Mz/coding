@@ -90,3 +90,27 @@
 
 
 
+// while(true){
+//     console.log("hello"); trut
+    
+// } goes to loop
+
+
+
+// while(""){
+//     console.log("hello");
+    
+// }no value
+
+
+
+// while(null){
+//     console.log("hello");
+    
+// } //nothing
+
+
+// while("false"){
+//     console.log("hello");
+    
+// } //loops
