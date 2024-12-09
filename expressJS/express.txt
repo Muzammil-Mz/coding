@@ -1,0 +1,16 @@
+firsly create app.js .gitignore 
+install : npm init -y
+# npm install express
+# npm install -g nodemon //allows without restart of server durimg updation
+in app.js
+import express from "express"
+
+
+
+
+there are 5 types in responce method
+1.send -- 2way communicateion
+2. end -- 1 way only output html elemnts gets ignored
+3. status -- gives status of web page based on http protocols 
+4. redirect --redirects the page to other url
+5. downloads the data from the given file

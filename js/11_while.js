@@ -114,3 +114,11 @@
 //     console.log("hello");
     
 // } //loops
+
+
+// while(undefined){
+//     console.log("hello");
+    
+// }
+let a=Date.now()
+console.log(a);
