@@ -65,36 +65,73 @@ async function addtask(loggededinuser) {
   await fs.writeFile("db.json", final);
 }
 
+// async function edittask(loggededinuser) {
+//   if (!loggededinuser) {
+//     console.log("login first");
+//     return;
+//   }
+//   let db = await fs.readFile("db.json", "utf-8");
+//   let finaldb = JSON.parse(db);
+//   let check = finaldb.users.find((x) => {return x.username === loggededinuser.username});
+//   if (check.todos.length === 0) {
+//     console.log("no data found");
+//   }
+//   console.log("your to dos ");
+//   check.todos.find((x) => console.log(`${x.id}, ${x.Title}`));
+
+//   let userinput = readline.questionInt("enter id: ");
+//   let task = check.todos.find((x) => {
+//   return x.id === userinput;
+//   });
+
+//   if (task) {
+//     let newTitle = readline.question("Enter new Title");
+//     let newdes = readline.question("enter new descript");
+//     task.Title = newTitle || task.Title;
+//     task.description = newdes || task.description;
+
+//     let final = JSON.stringify(finaldb);
+//     await fs.writeFile("db.json", final);
+//   } else {
+//     console.log("no task found");
+//   }
+// }
+
+
+
 async function edittask(loggededinuser) {
   if (!loggededinuser) {
     console.log("login first");
-    return;
+    return
   }
-  let db = await fs.readFile("db.json", "utf-8");
-  let finaldb = JSON.parse(db);
-  let check = finaldb.users.find((x) => {return x.username === loggededinuser.username});
+  let db = await fs.readFile("db.json", "utf-8")
+  let finaldb = JSON.parse(db)
+  let check = finaldb.users.find((x) => {
+    return x.username === loggededinuser.username
+  })
+
   if (check.todos.length === 0) {
     console.log("no data found");
   }
-  console.log("your to dos ");
-  check.todos.find((x) => console.log(`${x.id}, ${x.Title}`));
+  console.log("Your to do's");
+  check.todos.find((x) => {
+    console.log(`${x.id},${x.Title}`);
+  })
 
-  let userinput = readline.questionInt("enter id: ");
-  let task = check.todos.find((x) => {
-    return x.id === userinput;
-  });
 
-  if (task) {
-    let newTitle = readline.question("Enter new Title");
-    let newdes = readline.question("enter new descript");
-    task.Title = newTitle || task.Title;
-    task.description = newdes || task.description;
 
-    let final = JSON.stringify(finaldb);
-    await fs.writeFile("db.json", final);
-  } else {
-    console.log("no task found");
-  }
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 export { registeruser, login, addtask, edittask };

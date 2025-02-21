@@ -1,5 +1,5 @@
 import readline from "readline-sync"
-import { registeruser,login,addtask,edittask } from "./users.js"
+import { registeruser, login, addtask, edittask } from "./users.js"
 async function main() {
     let loggededinuser = true
     while (true) {
@@ -39,7 +39,7 @@ async function main() {
                 console.log("invalid");
                 break
         }
-readline.question("press enter to continue")
+        readline.question("press enter to continue")
 
     }
 }

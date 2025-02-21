@@ -119,3 +119,20 @@ import { get } from "http"
 // console.log("yes");
 
 // })
+
+// const person={
+//     name:"yes avd",
+//     roll:55
+// }
+
+
+// const app=express()
+// const port=5005
+// app.get ("/",(req,res)=>{
+//     res.json(person)
+// })
+
+// app.listen(port,()=>{
+//     console.log("hey");
+    
+// })
